@@ -11,7 +11,7 @@ import order from './order';
 const router = Router();
 
 router.get('/', (req, res) => {
-  res.end('hey');
+  res.end('hell yo backend');
 });
 
 router.use('/auth', auth);
